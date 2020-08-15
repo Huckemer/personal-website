@@ -52,6 +52,26 @@ class Resume extends Component {
           </li>
         )
       })
+
+      var achievements = this.props.data.achievements.map(function (achievements) {
+        var achievementImage = 'images/achievements/' + achievements.image;
+
+        return (
+          <div key={achievements.title} className="columns portfolio-item">
+            <div className="item-wrap">
+              <a href={achievements.url} title={achievements.title} target="_blank">
+                <img alt={achievements.title} src={achievementImage} />
+                <div className="overlay">
+                  <div className="portfolio-item-meta">
+                    <h5>{achievements.title}</h5>
+                    <p>{achievements.description}</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        )
+      })
     }
 
     return (
@@ -112,6 +132,18 @@ class Resume extends Component {
               <ul className="tools">
                 {tools}
               </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+
+          <div className="twelve columns collapsed">
+
+            <h1 style={{ "padding-bottom": "30px" }}>Achievements & Awards</h1>
+
+            <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
+              {achievements}
             </div>
           </div>
         </div>

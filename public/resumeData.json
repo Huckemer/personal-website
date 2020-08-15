@@ -204,16 +204,19 @@
       {
         "title": "Google Hashcode 2020 University of Iowa Hub Gold Medalist",
         "description": "Worldwide hackathon with local hubs",
+        "image": "Google Hash Code.jpg",
         "url": "https://codingcompetitions.withgoogle.com/hashcode/"
       },
       {
         "title": "Google Tech Challenge 2020 University of Iowa Winner",
         "description": "Team based half hackathon half puzzle competition",
+        "image": "Google Tech Challenge.jpg",
         "url": "https://buildyourfuture.withgoogle.com/events/tech-challenge/"
       },
       {
         "title": "Davenport Central Jim Fox Award",
         "description": "Highest GPA throughout athletic season",
+        "image": "Jim Fox.jpg",
         "url": "https://qctimes.com/qcshalloffame/jim-fox/article_87ef3f82-3ade-5d22-af55-4fd182019faa.html"
       }
     ]
