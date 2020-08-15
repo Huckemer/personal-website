@@ -139,10 +139,15 @@ header .scrolldown a:hover { color: #67CDFE; }
 .opaque { background-color: #0F0F0F; }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
+#nav-wrap > a.mobile-btn { 
+   display: none; 
+   position: absolute;
+   right: 0;
+   top: 0;
+}
 
 ul#nav {
-   min-height: 48px;
+   min-height: 36px;
    width: auto;
 
    /* center align the menu */
@@ -164,7 +169,7 @@ ul#nav li a {
    padding: 8px 13px;
    line-height: 32px;
 	text-decoration: none;
-   text-align: left;
+   text-align: center;
    color: #fff;
 
 	-webkit-transition: color .2s ease-in-out;
@@ -195,11 +200,13 @@ ul#nav li.current a { color: #67CDFE; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
+   text-align: left;
    color: #fff;
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
+   text-align: left;
    color: #ccc;
 }
 #about .profile-pic {
@@ -269,12 +276,16 @@ ul#nav li.current a { color: #67CDFE; }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #fff;
+   text-align: left;
    margin-bottom: 18px;
    margin-top: 9px;
 }
+#resume h3 {
+   text-align: left;
+}
 #resume .info span {
-   margin-right: 5px;
-   margin-left: 5px;
+   /* margin-right: 5px;
+   margin-left: 5px; */
    color: #ccc;
 }
 #resume .date {

@@ -19,7 +19,7 @@ class Resume extends Component {
           <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
           <ul>
             {education.description.map(item => (
-              <span style={{ "list-style-type": "circle" }}><li key={item}>{item}</li></span>
+              <span style={{ "list-style-type": "circle", "text-align": "left" }}><li key={item}>{item}</li></span>
             ))}
           </ul></div>
       })
@@ -29,7 +29,7 @@ class Resume extends Component {
           <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
           <ul>
             {work.description.map(item => (
-              <span style={{ "list-style-type": "circle" }}><li key={item}>{item}</li></span>
+              <span style={{ "list-style-type": "circle", "text-align": "left" }}><li key={item}>{item}</li></span>
             ))}
           </ul>
         </div>
@@ -115,6 +115,7 @@ class Resume extends Component {
             </div>
           </div>
         </div>
+
       </section>
     );
   }
