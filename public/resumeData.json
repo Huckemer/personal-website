@@ -80,7 +80,7 @@
           "Developed full-stack web applications using Squarespace and HTML, CSS, and JavaScript with little need for supervision or guidance on day to day tasks.",
           "Gathered client requirements in order to ensure that the final product suited business and design needs.",
           "Participated in sales calls in order to better understand the marketability of the product.",
-          "Some of my sites can be seen in the company’s portfolio: https://www.squarespace.com/designer/profile/3579170"
+          "Some projects can be seen in the company’s portfolio: https://www.squarespace.com/designer/profile/3579170"
         ]
       },
       {
@@ -89,7 +89,7 @@
         "title": "Yard Worker ",
         "years": "June 2018 - September 2019",
         "description": [
-          "Trained in a versatile fashion to work in the lumber shed, garden center, and receiving departments, bouncing back and forth depending on where the managers need me that day."
+          "Ensured all bases were covered throughout the lumber, filling in wherever needed it by being cross trained in the board shed, garden center, and receiving departments."
         ]
       },
       {
@@ -198,10 +198,6 @@
       {
         "name": "Wing",
         "level": "50%"
-      },
-      {
-        "name": "GitBash",
-        "level": "40%"
       }
     ]
   },
@@ -351,13 +347,13 @@
         "title": "First Person View (FPV) Drone Builds",
         "category": "Building, flying, and crashing FPV drones",
         "image" : "Drone.jpg",
-        "url": "https://www.colinhayes.org/public/images/personal/Drone.jpg"
+        "url": "Drone.jpg"
       },
       {
         "title": "Raspberry Pi cars and Breadboard Projects",
         "category": "Largely useless little gadgets run off of a Raspberry Pi",
         "image" : "Car.jpg",
-        "url": "https://www.colinhayes.org/public/images/personal/Car.jpg"
+        "url": "Car.jpg"
       }
     ]
   }
