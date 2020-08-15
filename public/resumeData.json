@@ -199,10 +199,33 @@
         "name": "Wing",
         "level": "50%"
       }
+    ],
+    "achievements": [
+      {
+        "title": "Google Hashcode 2020 University of Iowa Hub Gold Medalist",
+        "description": "Worldwide hackathon with local hubs",
+        "url": "https://codingcompetitions.withgoogle.com/hashcode/"
+      },
+      {
+        "title": "Google Tech Challenge 2020 University of Iowa Winner",
+        "description": "Team based half hackathon half puzzle competition",
+        "url": "https://buildyourfuture.withgoogle.com/events/tech-challenge/"
+      },
+      {
+        "title": "Davenport Central Jim Fox Award",
+        "description": "Highest GPA throughout athletic season",
+        "url": "https://qctimes.com/qcshalloffame/jim-fox/article_87ef3f82-3ade-5d22-af55-4fd182019faa.html"
+      }
     ]
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "RedBox Design",
+        "category": "Site made from the ground up for a construction and design company based out of Davenport, IA.",
+        "image": "Redbox Design.jpg",
+        "url": "https://www.redboxdesign.org/"
+      },
       {
         "title": "Washington Pain Center",
         "category": "Site built from the ground up for Dr. John Dombrowski, M.D. out of Washington D.C.",
@@ -210,22 +233,10 @@
         "url": "https://dcpaindoc.com/"
       },
       {
-        "title": "Colorful Creative Kids",
-        "category": "Site built from the ground up for a YouTube channel selling coloring books, linking to their Amazon author page and their YouTube channel.",
-        "image": "Colorful Creative Kids.jpg",
-        "url": "https://colorfulcreativekids.com/"
-      },
-      {
-        "title": "Elimo Medical",
-        "category": "Site built from the ground up for a Nurse Practitioner out of Oakland, CA advertising her aesthetic medical services.",
-        "image": "Elimo Medical.jpg",
-        "url": "https://www.elimomedical.com/"
-      },
-      {
-        "title": "Round Here Ranch",
-        "category": "Site made from the ground up for a small farm selling goat soap and advertising their bed and breakfast based out of Golden, CO.",
-        "image": "Round Here Ranch.jpg",
-        "url": "https://www.roundhereranch.com/"
+        "title": "The Soccer Architect",
+        "category": "Site made from the ground up for a professional and personal soccer coach out of Chicago, IL.",
+        "image": "The Soccer Architect.jpg",
+        "url": "https://thesoccerarchitect.com/"
       },
       {
         "title": "GoOats",
@@ -234,10 +245,64 @@
         "url": "https://www.gooats.life/"
       },
       {
+        "title": "Strassburger Burgers",
+        "category": "Site made from the ground up for a high quality ground beef distributor based out of Carlstadt, NJ.",
+        "image": "Strassburger Burgers.jpg",
+        "url": "https://www.therealburger.company/"
+      },
+      {
+        "title": "Ford Gum",
+        "category": "Site built from the ground up for Ford Gum, the makers of Smarties, Big League Chew, etc.",
+        "image": "Ford Gum.jpg",
+        "url": "https://fordgum.com/"
+      },
+      {
         "title": "Strassburger Steaks",
         "category": "Site made from the ground up for a high quality steak distributor out of Carlstadt, NJ.",
         "image": "Strassburger Steaks.jpg",
         "url": "http://www.strassburgersteaks.com/"
+      },
+      {
+        "title": "CF Capital",
+        "category": "Site made from the ground up for a real estate investing agency based out of Louisville, KY.",
+        "image": "CF Capital.jpg",
+        "url": "https://www.cfcapllc.com/"
+      },
+      {
+        "title": "Elimo Medical",
+        "category": "Site built from the ground up for a Nurse Practitioner out of Oakland, CA advertising her aesthetic medical services.",
+        "image": "Elimo Medical.jpg",
+        "url": "https://www.elimomedical.com/"
+      },
+      {
+        "title": "Hermosa Advisors",
+        "category": "Site made from the ground up for a financial planning investing firm based out of Hermosa Beach, CA.",
+        "image": "Hermosa Advisors.jpg",
+        "url": "https://www.hermosaadvisors.com/"
+      },
+      {
+        "title": "Colorful Creative Kids",
+        "category": "Site built from the ground up for a YouTube channel selling coloring books, linking to their Amazon author page and their YouTube channel.",
+        "image": "Colorful Creative Kids.jpg",
+        "url": "https://colorfulcreativekids.com/"
+      },
+      {
+        "title": "HomeHookUp",
+        "category": "Site made from the ground up for a company specializing in peoples moving needs and personal warranty/product information tracking, based out of Denver, CO.",
+        "image": "HomeHookUp.jpg",
+        "url": "https://www.homehookup.com/"
+      },
+      {
+        "title": "Family Chiropractic",
+        "category": "Website made from the ground up for a chiropractic and acupuncture practice based out of Chesterfield, MO.",
+        "image": "Family Chiropractic.jpg",
+        "url": "https://www.stlchiropractic-acupuncture.com/"
+      },
+      {
+        "title": "Round Here Ranch",
+        "category": "Site made from the ground up for a small farm selling goat soap and advertising their bed and breakfast based out of Golden, CO.",
+        "image": "Round Here Ranch.jpg",
+        "url": "https://www.roundhereranch.com/"
       },
       {
         "title": "Tempo Global Resources",
@@ -258,22 +323,10 @@
         "url": "https://www.maweltra.com/"
       },
       {
-        "title": "Hermosa Advisors",
-        "category": "Site made from the ground up for a financial planning investing firm based out of Hermosa Beach, CA.",
-        "image": "Hermosa Advisors.jpg",
-        "url": "https://www.hermosaadvisors.com/"
-      },
-      {
         "title": "Zaky Law",
         "category": "Site made from the ground up for an up and coming law firm based out of San Jose, CA.",
         "image": "Zaky Law.jpg",
         "url": "https://www.zakylaw.com/"
-      },
-      {
-        "title": "Family Chiropractic",
-        "category": "Website made from the ground up for a chiropractic and acupuncture practice based out of Chesterfield, MO.",
-        "image": "Family Chiropractic.jpg",
-        "url": "https://www.stlchiropractic-acupuncture.com/"
       },
       {
         "title": "Maven Iron Works",
@@ -282,77 +335,41 @@
         "url": "https://www.mavenironworks.com/"
       },
       {
-        "title": "CF Capital",
-        "category": "Site made from the ground up for a real estate investing agency based out of Louisville, KY.",
-        "image": "CF Capital.jpg",
-        "url": "https://www.cfcapllc.com/"
-      },
-      {
-        "title": "HomeHookUp",
-        "category": "Site made from the ground up for a company specializing in peoples moving needs and personal warranty/product information tracking, based out of Denver, CO.",
-        "image": "HomeHookUp.jpg",
-        "url": "https://www.homehookup.com/"
-      },
-      {
-        "title": "Ford Gum",
-        "category": "Site built from the ground up for Ford Gum, the makers of Smarties, Big League Chew, etc.",
-        "image": "Ford Gum.jpg",
-        "url": "https://fordgum.com/"
-      },
-      {
-        "title": "Strassburger Burgers",
-        "category": "Site made from the ground up for a high quality ground beef distributor based out of Carlstadt, NJ.",
-        "image": "Strassburger Burgers.jpg",
-        "url": "https://www.therealburger.company/"
-      },
-      {
         "title": "Bintis Bakery",
         "category": "Site made from the ground up for a bakery specializing in baklava, based out of Montgomery, AL.",
         "image": "Bintis Bakery.jpg",
         "url": "https://www.bintisbakery.com/"
-      },
-      {
-        "title": "RedBox Design",
-        "category": "Site made from the ground up for a construction and design company based out of Davenport, IA.",
-        "image": "Redbox Design.jpg",
-        "url": "https://www.redboxdesign.org/"
-      },
-      {
-        "title": "The Soccer Architect",
-        "category": "Site made from the ground up for a professional and personal soccer coach out of Chicago, IL.",
-        "image": "The Soccer Architect.jpg",
-        "url": "https://thesoccerarchitect.com/"
       }
     ],
     "personal": [
       {
         "title": "React and React Native",
         "category": "This website among other personal and class projects built with React",
-        "image" : "React.jpg",
+        "image": "React.jpg",
         "url": "https://github.com/Huckemer/personal-website"
       },
       {
         "title": "Discord API and Node.js",
         "category": "Temporarily shelved attempt to reverse engineer the removed WaifuBot Discord bot, among other small chat bots",
-        "image" : "Discord.jpg",
+        "image": "Discord.jpg",
         "url": "https://discord.com/developers/docs/intro"
       },
       {
         "title": "Google Maps API",
         "category": "Class projects using Google Maps and MapBox API",
-        "image" : "MapBox.jpg",
+        "image": "MapBox.jpg",
         "url": "https://github.com/dnunez20/DatabaseSystems"
       },
       {
         "title": "First Person View (FPV) Drone Builds",
         "category": "Building, flying, and crashing FPV drones",
-        "image" : "Drone.jpg",
+        "image": "Drone.jpg",
         "url": "Drone.jpg"
       },
       {
         "title": "Raspberry Pi cars and Breadboard Projects",
         "category": "Largely useless little gadgets run off of a Raspberry Pi",
-        "image" : "Car.jpg",
+        "image": "Car.jpg",
         "url": "Car.jpg"
       }
     ]

@@ -52,7 +52,7 @@ class Portfolio extends Component {
 
           <div className="twelve columns collapsed">
 
-            <h1>My Projects Completed at <a target="_blank" href="https://www.peakdegrees.com">PEAK Degrees</a></h1>
+            <h1>Some of My Projects Completed at <a target="_blank" href="https://www.peakdegrees.com">PEAK Degrees</a></h1>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               {projects}
