@@ -53,7 +53,6 @@
         "degree": "B.S. in Computer Science, Minor in Mathematics",
         "graduated": " August 2017 - December 2020",
         "description": [
-          "GPA: 2.94/4.0",
           "ACM Student Chapter Vice President (2020-2021)",
           "ACM Student Chapter Secretary & Treasurer (2019-2020)",
           "Associated Residence Hall Petersen Senator (2017-2018)"
@@ -78,10 +77,9 @@
         "title": "Web Developer Intern ",
         "years": "October 2019 - Present",
         "description": [
-          "Developed full-stack web applications using Squarespace and HTML, CSS, and JavaScript with little need for supervision or guidance on day to day tasks.",
-          "Gathered client requirements in order to ensure that the final product suited business and design needs.",
-          "Participated in sales calls in order to better understand the marketability of the product.",
-          "Some projects can be seen in the company’s portfolio: https://www.squarespace.com/designer/profile/3579170"
+          "Developed 27 mobile friendly, responsive web apps utilizing Squarespace, JavaScript, HTML, and CSS for a wide variety of brands including large names like GoOats, Ford Gum, Strassburger Steaks, as well as small brick and mortar shops and clinics.",
+          "Generated over 430,000 unique viewers, 1,000,000 page views, and $640,000 for clients across the many ecommerce, blog, and homepage websites detailed in my portfolio over 10 months.",
+          "Helped increase web development team performance by 25% through facilitating a transition to a scrum development cycle using Trello integrated with Slack."
         ]
       },
       {
@@ -99,9 +97,9 @@
         "title": "Summer Intern ",
         "years": "June 2017 - August 2017",
         "description": [
-          "Increased productivity by doing 2 months of re-formatting & organizing of Creo archives in under a week.",
-          "Ensured product quality by performing safety checks on over 4,000 parts.",
-          "Made deliveries to clients sometimes multiple hours away, making each one on time."
+          "Increased team productivity by 20% by formatting, creating, and maintaining Creo CAD design projects.",
+          "Ensured OSHA compliance and operator safety by performing physical safety inspections on over 4,000 slings and riggings.",
+          "Delivered imperative parts and documents to clients across the Midwest, replacing or exchanging broken parts."
         ]
       },
       {
@@ -110,7 +108,7 @@
         "title": "Engineering Apprentice ",
         "years": "June 2016 - August 2016",
         "description": [
-          "Helped organize software development team by designing, building, and implementing a link management system with C# backend, HTML & CSS frontend, and XML storage which was used daily by the development team."
+          "Organized the software development team by designing, building, and implementing a link management system with C# backend, HTML & CSS frontend, and XML storage which was used daily by the development team."
         ]
       },
       {
@@ -128,23 +126,23 @@
     "skills": [
       {
         "name": "Python",
-        "level": "80%"
+        "level": "85%"
       },
       {
         "name": "JAVA",
-        "level": "80%"
+        "level": "85%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "75%"
+      },
+      {
+        "name": "ES6",
+        "level": "70%"
       },
       {
         "name": "C++",
         "level": "70%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "55%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "55%"
       },
       {
         "name": "HTML",
@@ -156,14 +154,56 @@
       },
       {
         "name": "MySQL",
-        "level": "65%"
+        "level": "75%"
       },
       {
         "name": "SQLite",
+        "level": "65%"
+      }
+    ],
+    "frameworks_and_libraries": [
+      {
+        "name": "ReactJs",
+        "level": "75%"
+      },
+      {
+        "name": "Django",
+        "level": "70%"
+      },
+      {
+        "name": "Pandas",
+        "level": "70%"
+      },
+      {
+        "name": "Spring Boot",
+        "level": "65%"
+      },
+      {
+        "name": "JUnit Testing",
+        "level": "65%"
+      },
+      {
+        "name": "Jest Testing",
+        "level": "65%"
+      },
+      {
+        "name": "PyTorch",
+        "level": "60%"
+      },
+      {
+        "name": "TensorFlow",
+        "level": "60%"
+      },
+      {
+        "name": "Sass",
         "level": "60%"
       }
     ],
     "tools": [
+      {
+        "name": "Visual Studio Code",
+        "level": "90%"
+      },
       {
         "name": "IntelliJ",
         "level": "85%"
@@ -177,7 +217,7 @@
         "level": "85%"
       },
       {
-        "name": "Visual Studio",
+        "name": "AWS",
         "level": "80%"
       },
       {
@@ -189,8 +229,8 @@
         "level": "80%"
       },
       {
-        "name": "JUnit Testing",
-        "level": "75%"
+        "name": "Weka",
+        "level": "80%"
       },
       {
         "name": "VIM",
@@ -199,6 +239,14 @@
       {
         "name": "Wing",
         "level": "50%"
+      },
+      {
+        "name": "Data Structures",
+        "level": "85%"
+      },
+      {
+        "name": "Algorithms",
+        "level": "85%"
       }
     ],
     "achievements": [
@@ -347,32 +395,38 @@
     ],
     "personal": [
       {
-        "title": "React and React Native",
-        "category": "This website among other personal and class projects built with React",
-        "image": "React.jpg",
-        "url": "https://github.com/Huckemer/personal-website"
-      },
-      {
-        "title": "Discord API and Node.js",
-        "category": "Temporarily shelved attempt to reverse engineer the removed WaifuBot Discord bot, among other small chat bots",
-        "image": "Discord.jpg",
-        "url": "https://discord.com/developers/docs/intro"
-      },
-      {
-        "title": "Google Maps API",
-        "category": "Class projects using Google Maps and MapBox API",
+        "title": "Disaster Stocks",
+        "category": "Full stack data visualization web app comparing natural disaster location and times with stock prices, written with a React.js frontend and Node.js backend utilizing the Mapbox API, hosted on AWS RDS MySQL and an EC2 instances.",
         "image": "MapBox.jpg",
         "url": "https://github.com/dnunez20/DatabaseSystems"
       },
       {
-        "title": "First Person View (FPV) Drone Builds",
-        "category": "Building, flying, and crashing FPV drones",
+        "title": "Vanpool Service System",
+        "category": "Full stack van ridesharing web app written with React.js, Django, and MySQL (in progress).",
+        "image": "VanpoolHome.jpg",
+        "url": "https://github.com/Huckemer/Vanpool-Service-System"
+      },
+      {
+        "title": "Personal Portfolio Website",
+        "category": "Single page architecture web app made with React.js, hosted on an AWS S3 Elastic Beanstalk static instance.",
+        "image": "React.jpg",
+        "url": "https://github.com/Huckemer/personal-website"
+      },
+      {
+        "title": "WaifuBot",
+        "category": "Discord bot trading card game using Discord.js API supported with Node.js and MySQL (in progress).",
+        "image": "Discord.jpg",
+        "url": "https://discord.com/developers/docs/intro"
+      },
+      {
+        "title": "FPV Drones",
+        "category": "Built, raced, and crashed multiple First-Person View Racing Drones",
         "image": "Drone.jpg",
         "url": "Drone.jpg"
       },
       {
-        "title": "Raspberry Pi cars and Breadboard Projects",
-        "category": "Largely useless little gadgets run off of a Raspberry Pi",
+        "title": "Embedded Systems",
+        "category": "Programmed and built raspberry pi cars and other small technical breadboard projects involving low level programming.",
         "image": "Car.jpg",
         "url": "Car.jpg"
       }

@@ -44,6 +44,15 @@ class Resume extends Component {
         )
       })
 
+      var frameworks_and_libraries = this.props.data.frameworks_and_libraries.map((frameworks_and_libraries) => {
+        var className = 'bar-expand ' + frameworks_and_libraries.name.toLowerCase();
+        return (
+          <li key={frameworks_and_libraries.name}>
+            <span style={{ width: frameworks_and_libraries.level, backgroundColor: this.getRandomColor() }} className={className}></span><em>{frameworks_and_libraries.name}</em>
+          </li>
+        )
+      })
+
       var tools = this.props.data.tools.map((tools) => {
         var className = 'bar-expand ' + tools.name.toLowerCase();
         return (
@@ -115,6 +124,23 @@ class Resume extends Component {
             <div className="bars">
               <ul className="skills">
                 {skills}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="row skill">
+
+          <div className="three columns header-col">
+            <h1><span>Frameworks and</span></h1>
+            <h1><span>Libraries</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+
+            <div className="bars">
+              <ul className="tools">
+                {frameworks_and_libraries}
               </ul>
             </div>
           </div>
