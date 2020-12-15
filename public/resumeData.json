@@ -279,28 +279,10 @@
         "url": "https://www.redboxdesign.org/"
       },
       {
-        "title": "Washington Pain Center",
-        "category": "Site built from the ground up for Dr. John Dombrowski, M.D. out of Washington D.C.",
-        "image": "Washington Pain Center.jpg",
-        "url": "https://dcpaindoc.com/"
-      },
-      {
-        "title": "The Soccer Architect",
-        "category": "Site made from the ground up for a professional and personal soccer coach out of Chicago, IL.",
-        "image": "The Soccer Architect.jpg",
-        "url": "https://thesoccerarchitect.com/"
-      },
-      {
         "title": "GoOats",
         "category": "Site made from the ground up for a health food company specializing in oatmeal treats based out of Lorton, VA.",
         "image": "Go Oats.jpg",
         "url": "https://www.gooats.life/"
-      },
-      {
-        "title": "Strassburger Burgers",
-        "category": "Site made from the ground up for a high quality ground beef distributor based out of Carlstadt, NJ.",
-        "image": "Strassburger Burgers.jpg",
-        "url": "https://www.therealburger.company/"
       },
       {
         "title": "Ford Gum",
@@ -313,6 +295,24 @@
         "category": "Site made from the ground up for a high quality steak distributor out of Carlstadt, NJ.",
         "image": "Strassburger Steaks.jpg",
         "url": "http://www.strassburgersteaks.com/"
+      },
+      {
+        "title": "Strassburger Burgers",
+        "category": "Site made from the ground up for a high quality ground beef distributor based out of Carlstadt, NJ.",
+        "image": "Strassburger Burgers.jpg",
+        "url": "https://www.therealburger.company/"
+      },
+      {
+        "title": "Washington Pain Center",
+        "category": "Site built from the ground up for Dr. John Dombrowski, M.D. out of Washington D.C.",
+        "image": "Washington Pain Center.jpg",
+        "url": "https://dcpaindoc.com/"
+      },
+      {
+        "title": "The Soccer Architect",
+        "category": "Site made from the ground up for a professional and personal soccer coach out of Chicago, IL.",
+        "image": "The Soccer Architect.jpg",
+        "url": "https://thesoccerarchitect.com/"
       },
       {
         "title": "CF Capital",
