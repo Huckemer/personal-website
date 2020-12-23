@@ -16,20 +16,20 @@ class Resume extends Component {
     if (this.props.data) {
       var education = this.props.data.education.map(function (education) {
         return <div key={education.school}><h3><a href={education.link}>{education.school}</a></h3>
-          <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
+          <p className="info">{education.degree} <span> | </span><em className="date">{education.graduated}</em></p>
           <ul>
             {education.description.map(item => (
-              <span style={{ "list-style-type": "circle", "text-align": "left" }}><li key={item}>{item}</li></span>
+              <span style={{ "list-style-type": "square", "text-align": "left" }}><li key={item}>{item}</li></span>
             ))}
           </ul></div>
       })
 
       var work = this.props.data.work.map(function (work) {
         return <div key={work.company}><h3><a href={work.link} target="_blank">{work.company}</a></h3>
-          <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
+          <p className="info">{work.title}<span> | </span> <em className="date">{work.years}</em></p>
           <ul>
             {work.description.map(item => (
-              <span style={{ "list-style-type": "circle", "text-align": "left" }}><li key={item}>{item}</li></span>
+              <span style={{ "list-style-type": "square", "text-align": "left" }}><li key={item}>{item}</li></span>
             ))}
           </ul>
         </div>
