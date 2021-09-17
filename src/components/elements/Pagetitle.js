@@ -1,7 +1,7 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
-function Pagetitle({ title }) {
+function Pagetitle({ title, size }) {
   return (
     <>
       <ScrollAnimation
@@ -11,7 +11,7 @@ function Pagetitle({ title }) {
       >
         <h2 className="section-title">{title}</h2>
       </ScrollAnimation>
-      <div className="spacer" data-height="60"></div>
+      <div className="spacer" data-height={size}></div>
     </>
   );
 }

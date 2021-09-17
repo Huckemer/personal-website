@@ -63,7 +63,7 @@ function About() {
   return (
     <section id="about">
       <div className="container">
-        <Pagetitle title="About Me" />
+        <Pagetitle title="About Me" size="60"/>
         <div className="row">
           <div className="col-md-3">
             <div className="text-center text-md-left" border-radius="50%">

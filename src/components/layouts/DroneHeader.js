@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import Logo from "../elements/Logo";
 
-function Header2({ light, logoSource, toggleMenu, headerToggler, links, logoLinkTo, logoClickable }) {
+function Header2({ light, logoSource, toggleMenu, headerToggler }) {
   const handleClasses = () => {
     let classes = "desktop-header-2 d-flex align-items-start flex-column";
     if (light & toggleMenu) {
@@ -37,22 +37,53 @@ function Header2({ light, logoSource, toggleMenu, headerToggler, links, logoLink
         </div>
       </header>
       <header className={handleClasses()}>
-        <Logo logoSource={logoSource}  linkTo={logoLinkTo} clickable={logoClickable}/>
+        <Logo logoSource={logoSource}  linkTo="/" clickable="true"/>
         <nav>
           <ul className="vertical-menu scrollspy">
-            {links.map((item) => (
-              <li>
-                <Link
-                  activeClass="active"
-                  to={item.section}
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                >
-                  <i className={item.icon}></i>
-                </Link>
-              </li>
-            ))}
+          <li>
+              <Link
+                activeClass="active"
+                to="section-me"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="icon-user"></i>
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="section-info"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="icon-info"></i>
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="section-video"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="icon-control-play"></i>
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="section-footage"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="icon-film"></i>
+              </Link>
+            </li>
           </ul>
         </nav>
 

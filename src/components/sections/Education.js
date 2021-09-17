@@ -31,7 +31,7 @@ function Education() {
   return (
     <section id="education">
       <div className="container">
-        <Pagetitle title="Education" />
+        <Pagetitle title="Education" size="60"/>
         <div className="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
           {educationData.map((education) => (
             <Timeline key={education.id} education={education} />

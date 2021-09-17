@@ -29,30 +29,58 @@ function Portfolio({ portfolio }) {
     }
     return <i className="icon-magnifier-add"></i>;
   };
-  return (
-    <>
-      <a
-        href={link ? link : "!#"}
-        className="work-image"
-        onClick={handleLightbox}
-        rel="noreferrer"
-        target="_blank"
-      >
-        <div className="portfolio-item rounded shadow-dark">
-          <div className="details">
-            <span className="term text-capitalize">{category}</span>
-            <h4 className="title">{title}</h4>
-            <span className="more-button">{handleIcon()}</span>
+
+  if (popupLink && popupLink.toString().match(/youtube/g)) {
+    return (
+      <>
+        <a
+          href={popupLink}
+          className="work-image"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <div className="portfolio-item rounded shadow-dark">
+            <div className="details">
+              <span className="term text-capitalize">{category}</span>
+              <h4 className="title">{title}</h4>
+              <span className="more-button">{handleIcon()}</span>
+            </div>
+            <div className="thumb">
+              <img src={image} alt="Portfolio-title" />
+              <div className="mask"></div>
+            </div>
           </div>
-          <div className="thumb">
-            <img src={image} alt="Portfolio-title" />
-            <div className="mask"></div>
+        </a>
+        {popupLink && <FsLightbox toggler={toggler} sources={popupLink} />}
+      </>
+    );
+  }
+  else {
+    return (
+      <>
+        <a
+          href={link ? link : "!#"}
+          className="work-image"
+          onClick={handleLightbox}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <div className="portfolio-item rounded shadow-dark">
+            <div className="details">
+              <span className="term text-capitalize">{category}</span>
+              <h4 className="title">{title}</h4>
+              <span className="more-button">{handleIcon()}</span>
+            </div>
+            <div className="thumb">
+              <img src={image} alt="Portfolio-title" />
+              <div className="mask"></div>
+            </div>
           </div>
-        </div>
-      </a>
-      {popupLink && <FsLightbox toggler={toggler} sources={popupLink} />}
-    </>
-  );
+        </a>
+        {popupLink && <FsLightbox toggler={toggler} sources={popupLink} />}
+      </>
+    );
+  }
 }
 
 export default Portfolio;

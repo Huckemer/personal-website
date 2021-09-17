@@ -52,7 +52,7 @@ function Experiences() {
   return (
     <section id="experience">
       <div className="container">
-        <Pagetitle title="Work Experience" />
+        <Pagetitle title="Work Experience" size="60"/>
         <div className="timeline exp bg-white rounded shadow-dark padding-30 overflow-hidden">
           {experienceData.map((experience) => (
             <Timeline key={experience.id} education={experience} />

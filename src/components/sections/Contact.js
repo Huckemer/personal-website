@@ -122,7 +122,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <Pagetitle title="Get in Touch" />
+        <Pagetitle title="Get in Touch" size="60"/>
 
         <div className="row">
           <div className="col-md-4">
