@@ -73,6 +73,13 @@ const worksData = [
     link: "https://www.therealburger.company/",
   },
   {
+    id: 22,
+    title: "Vanpool Service System",
+    category: "personal",
+    image: "images/personal/VanpoolHome.jpg",
+    popupLink: "https://github.com/Huckemer/Vanpool-Service-System",
+  },
+  {
     id: 6,
     title: "Washington Pain Center",
     category: "website",
@@ -101,6 +108,13 @@ const worksData = [
     link: "https://www.elimomedical.com/",
   },
   {
+    id: 21,
+    title: "Disaster Stocks",
+    category: "personal",
+    image: "images/personal/MapBox.jpg",
+    popupLink: "https://github.com/dnunez20/DatabaseSystems",
+  },
+  {
     id: 10,
     title: "Hermosa Advisors",
     category: "website",
@@ -122,6 +136,20 @@ const worksData = [
     link: "https://www.homehookup.com/",
   },
   {
+    id: 24,
+    title: "WaifuBot",
+    category: "personal",
+    image: "images/personal/Discord.jpg",
+    popupLink: "https://github.com/Huckemer",
+  },
+  {
+    id: 26,
+    title: "Embedded Systems",
+    category: "personal",
+    image: "images/personal/Car.jpg",
+    popupLink: "Car.jpg",
+  },
+  {
     id: 13,
     title: "Family Chiropractic",
     category: "website",
@@ -134,6 +162,13 @@ const worksData = [
     category: "website",
     image: "images/websites/Round Here Ranch.jpg",
     link: "https://www.roundhereranch.com/",
+  },
+  {
+    id: 23,
+    title: "Personal Portfolio Website",
+    category: "personal",
+    image: "images/personal/React.jpg",
+    popupLink: "https://github.com/Huckemer/personal-website",
   },
   {
     id: 15,
@@ -176,41 +211,6 @@ const worksData = [
     category: "website",
     image: "images/websites/Bintis Bakery.jpg",
     link: "https://www.bintisbakery.com/",
-  },
-  {
-    id: 21,
-    title: "Disaster Stocks",
-    category: "personal",
-    image: "images/personal/MapBox.jpg",
-    popupLink: "https://github.com/dnunez20/DatabaseSystems",
-  },
-  {
-    id: 22,
-    title: "Vanpool Service System",
-    category: "personal",
-    image: "images/personal/VanpoolHome.jpg",
-    popupLink: "https://github.com/Huckemer/Vanpool-Service-System",
-  },
-  {
-    id: 23,
-    title: "Personal Portfolio Website",
-    category: "personal",
-    image: "images/personal/React.jpg",
-    popupLink: "https://github.com/Huckemer/personal-website",
-  },
-  {
-    id: 24,
-    title: "WaifuBot",
-    category: "personal",
-    image: "images/personal/Discord.jpg",
-    popupLink: "https://github.com/Huckemer",
-  },
-  {
-    id: 26,
-    title: "Embedded Systems",
-    category: "personal",
-    image: "images/personal/Car.jpg",
-    popupLink: "Car.jpg",
   },
 ];
 

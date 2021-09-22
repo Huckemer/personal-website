@@ -107,7 +107,7 @@ import Portfolio from "../elements/Portfolio";
 function Works( {allData, filters} ) {
   const [getAllItems] = useState(allData);
   const [dataVisibleCount, setDataVisibleCount] = useState(6);
-  const [dataIncrement] = useState(6);
+  const [dataIncrement] = useState(12);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
   const [noMorePost, setNoMorePost] = useState(false);
