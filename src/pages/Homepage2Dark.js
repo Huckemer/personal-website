@@ -50,6 +50,7 @@ const worksData = [
     category: "drones",
     image: "images/personal/Drone.jpg",
     link: "/drones",
+    internal: "true"
   },
   {
     id: 3,

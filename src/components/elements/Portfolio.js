@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 
 function Portfolio({ portfolio }) {
-  const { category, title, image, popupLink, link } = portfolio;
+  const { category, title, image, popupLink, link, internal } = portfolio;
   const [toggler, setToggler] = useState(false);
 
   const handleLightbox = (e) => {
@@ -55,11 +55,12 @@ function Portfolio({ portfolio }) {
       </>
     );
   }
-  else if (popupLink && !popupLink.toString().match(/youtube/g)) {
+  else if (internal) {
     return (
       <>
         <a
           href={popupLink}
+          href={link}
           className="work-image"
           rel="noreferrer"
         >
