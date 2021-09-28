@@ -113,7 +113,7 @@ const worksData = [
     title: "Disaster Stocks",
     category: "personal",
     image: "images/personal/MapBox.jpg",
-    popupLink: "https://github.com/dnunez20/DatabaseSystems",
+    link: "https://github.com/dnunez20/DatabaseSystems",
   },
   {
     id: 10,
