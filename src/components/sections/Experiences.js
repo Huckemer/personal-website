@@ -9,8 +9,8 @@ const experienceData = [
     location: "John Deere, Iowa City IA",
     years: "4/2021 - Present",
     content: [
-      "Resolved data quality, enablement, and integrity issues by leveraging mathematical and statistical techniques to integrate, ingest, compile, clean, and transform data from multiple sources for high-performance solutions. ",
-      "Improved Parameter Analytics Team overall performance by automating daily tasks utilizing a combination of Python, SAP GUI Scripting, SQL, DB2, and SAP HANA. ",
+      "Improved Parameter Analytics Team overall performance by automating crucialtasks utilizing a combination of Python, SAP GUI ScriptingAPIs, SQL, DB2, and SAP HANA. ",
+      "Resolved data quality, enablement, and integrity issues by leveraging mathematical and statisticaltechniques to integrate, ingest, compile, clean,organize,and transform datasetsfrom multiple data sources forquantitative analysisand automation support. ",
       "Streamlined onboarding and training by developing training documents and practices, acting as an integral resource for anything involving Data Structures, Algorithms, Object-Oriented Programming, Probability & Statistics, Database Management, Data Visualization, DevOps, or Cloud Computing. ",
     ],
   },

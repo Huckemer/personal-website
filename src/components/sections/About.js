@@ -78,7 +78,7 @@ function About() {
                 <div className="col-md-6">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="/ColinHayesResume.pdf" className="btn btn-default" target="_blank">
+                    <a href="/2021 Resume.pdf" className="btn btn-default" target="_blank">
                       Download Resume
                     </a>
                   </div>
